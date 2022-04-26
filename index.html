@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/319e5c77a4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="todo todo-bg">
+            <div class="hero-img"></div>
+            <div class="todo-shadow"></div>
+            <div class="todo__header">
+                <h2>Mój dzień</h2>
+                <p class="current-day"></p>
+                <button class="btn motive"><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+
+            <div class="motives ">
+                <h4 class="motives-title">Motywy</h4>
+                <div class="bg-box">
+                    <button class="bg one"></button>
+                    <button class="bg two"></button>
+                    <button class="bg three"></button>
+                    <button class="bg four"></button>
+                    <button class="bg five"></button>
+                    <button class="bg six"></button>
+                    <button class="bg seven"></button>
+                    <button class="bg eight"></button>
+                    <button class="bg nine"></button>
+                </div>
+            </div>
+
+            <div class="todo__body">
+                <ul class="ul-list">
+                    <p class="empty-list">Dodaj nowe zadanie</p>
+                    <!-- <li class="li-item ">
+                        <button class="btn-circle" id="0">
+                            <i class="fa-solid fa-check"></i>
+                        </button>
+                        <p class="text">Pojść na spacer</p>
+                        <button class="btn delete"><i class="fa-solid fa-xmark"></i></button>
+                        <button class="btn edit">EDIT</button>
+                    </li>
+                    <li class="li-item">
+                        <button class="btn-circle">
+                            <i class="fa-solid fa-check"></i>
+                        </button>
+                        <p class="text">Pojść na spacer</p>
+                        <button class="btn delete"><i class="fa-solid fa-xmark"></i></button>
+                        <button class="btn edit">EDIT</button>
+                    </li> -->
+                </ul>
+
+            </div>
+            <div class="todo__footer">
+                <input type="text" placeholder="Dodaj zadanie" class="input">
+                <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+            </div>
+        </div> 
+
+    <div class="popup">
+        <h3 class="title">Edycja</h3>
+        <input type="text" class="popupinput" placeholder="Zmień treść zadania">
+        <p class="error"></p>
+        <div class="buttons">
+            <button class="btn save">Zapisz</button>
+            <button class="btn cancel">Anuluj</button>
+        </div> 
+    </div>
+
+    </div>
+
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
